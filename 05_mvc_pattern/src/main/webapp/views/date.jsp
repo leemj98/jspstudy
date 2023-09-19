@@ -2,7 +2,6 @@
     pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <c:set var="contextPath" value="${pageContext.request.contextPath}" />
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,12 +11,7 @@
 </head>
 <body>
 
-<c:if test="${today != null}">
   ${today}
-</c:if>
-<c:if test="${now != null}">
-  ${now}
-</c:if>
 
 </body>
 </html>
