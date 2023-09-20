@@ -160,7 +160,11 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="D:\GDJ69\jspstudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\GDJ69\jspstudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\07_dbcp" path="/dbcp" reloadable="true" source="org.eclipse.jst.jee.server:07_dbcp">
+      <Context docBase="D:\GDJ69\jspstudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\GDJ69\jspstudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\08_dbcp_ex" path="/dbcp_ex" reloadable="true" source="org.eclipse.jst.jee.server:08_dbcp_ex">
+  
+  <!-- 오라클 접속 정보 -->
+  <Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxIdle="8" maxTotal="8" maxWaitMillis="-1" name="jdbc/oraclexe" password="1111" type="javax.sql.DataSource" url="jdbc:oracle:thin:@localhost:1521:xe" username="GD"/>
+</Context><Context docBase="D:\GDJ69\jspstudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\07_dbcp" path="/dbcp" reloadable="true" source="org.eclipse.jst.jee.server:07_dbcp">
   
   <!-- 오라클 접속 정보 -->
   <Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxIdle="8" maxTotal="8" maxWaitMillis="-1" name="jdbc/oraclexe" password="1111" type="javax.sql.DataSource" url="jdbc:oracle:thin:@localhost:1521:xe" username="GD"/>
