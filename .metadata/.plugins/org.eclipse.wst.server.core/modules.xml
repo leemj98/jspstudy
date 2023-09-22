@@ -7,5 +7,6 @@
   <module moduleId="org.eclipse.jst.jee.server:02_jsp" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:06_mvc_pattern_ex" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:09_mybatis" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:11_ajax" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:08_dbcp_ex" serverId="Tomcat v9.0 Server at localhost"/>
 </modules>
