@@ -1,8 +1,0 @@
-127.0.0.1 - - [12/Sep/2023:14:12:21 +0900] "GET / HTTP/1.1" 404 807
-0:0:0:0:0:0:0:1 - - [12/Sep/2023:14:12:22 +0900] "GET /servlet/NewFile.html HTTP/1.1" 200 176
-0:0:0:0:0:0:0:1 - - [12/Sep/2023:14:12:22 +0900] "GET /favicon.ico HTTP/1.1" 404 818
-0:0:0:0:0:0:0:1 - - [12/Sep/2023:14:12:30 +0900] "GET /servlet/HelloServlet HTTP/1.1" 200 19
-0:0:0:0:0:0:0:1 - - [12/Sep/2023:14:15:09 +0900] "GET /servlet/HelloServlet HTTP/1.1" 200 19
-0:0:0:0:0:0:0:1 - - [12/Sep/2023:14:15:10 +0900] "GET /servlet/HelloServlet HTTP/1.1" 200 19
-0:0:0:0:0:0:0:1 - - [12/Sep/2023:14:15:18 +0900] "GET /servlet/NewFile.html HTTP/1.1" 200 291
-0:0:0:0:0:0:0:1 - - [12/Sep/2023:14:15:19 +0900] "POST /servlet/HelloServlet HTTP/1.1" 200 19

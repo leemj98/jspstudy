@@ -2,21 +2,23 @@ package test;
 
 import java.util.Scanner;
 
-public class Main {
+public class Main {    
+    // 재귀함수를 이용해 숫자를 n부터 1까지 출력하고, 다시 1부터 n까지 출력합니다.
+    public static void printStar(int n) {
+        if(n == 0)
+            return;
+    
+        System.out.print(n + " ");
+        printStar(n - 1);
+        System.out.print(n + " ");
+    }
+    
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        
-        // 공백을 포함한 문자열을 입력받습니다.
-        String str = sc.nextLine();
-        String str2 = sc.nextLine();
+        // 변수 선언 및 입력:
+        int n = sc.nextInt();
 
-        // 문자열을 전부 순회하며 공백을 제외한 모든 문자를 출력합니다.
-        for(int i = 0; i < str.length(); i++)
-            if(str.charAt(i) != ' ')
-                System.out.print(str.charAt(i));
-        
-        for(int i = 0; i < str2.length(); i++)
-            if(str2.charAt(i) != ' ')
-                System.out.print(str2.charAt(i));
+        printStar(n);
     }
 }

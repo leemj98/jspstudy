@@ -9,4 +9,5 @@
   <module moduleId="org.eclipse.jst.jee.server:09_mybatis" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:11_ajax" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:08_dbcp_ex" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:01_IoC" serverId="Tomcat v9.0 Server at localhost"/>
 </modules>
